@@ -11,10 +11,9 @@
 </style>
 
 <div class="room-container">
-
     <div>
-        <h1> you are in room named {{room.name}}</h1>
-        <h3>{{room.description}}</h3>
+        <h1>Room Name: {{room.name}}</h1>
+        <h5>{{room.description}} </h5>
 
         <div class="comment_wrapper">
             <h3>Conversation</h3>
@@ -28,7 +27,6 @@
                 <p>{{message.body}}</p> 
                 <hr>
             </div>
-
             {% endfor %}
         </div>
 
